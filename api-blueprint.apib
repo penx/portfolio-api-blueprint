@@ -13,17 +13,20 @@ An API to supply content for a portfolio site, including articles, projects, cli
 
     + Body
 
-            {
-                "result": [{
+            [
+                {
                     "id": "example_project_1",
-                    "title": "Example Project 1"},
-                    {
+                    "title": "Example Project 1"
+                },
+                {
                     "id": "example_project_2",
-                    "title": "Example Project 2"},
-                    {
+                    "title": "Example Project 2"
+                },
+                {
                     "id": "example_project_3",
-                    "title": "Example Project 3"}]
-            }
+                    "title": "Example Project 3"
+                }
+            ]
 
 
 ## Project [/project/{projectId}]
@@ -49,28 +52,25 @@ A project has the following attributes:
     + Body
 
             {
-                "result": {
-                    "id": "example_project_1",
-                    "title": "Example Project 1",
-                    "date": "November 2016",
-                    "clients": [
-                    ],
-                    "role": "Developer",
-                    "technologies": [
-                        "React",
-                        "Redux",
-                        "API Blueprint",
-                        "Express",
-                        "Universal JavaScript",
-                        "Babel"
-                    ],
-                    "description": "Development of an example site.",
-                    "images": [
-                        "desktop.png",
-                        "mobile.png"
-                    ],
-                    "urls": [
-                        "http://www.example.com"
-                    ]
-                }
+                "id": "example_project_1",
+                "title": "Example Project 1",
+                "date": "November 2016",
+                "clients": [],
+                "role": "Developer",
+                "technologies":[
+                    "React",
+                    "Redux",
+                    "API Blueprint",
+                    "Express",
+                    "Universal JavaScript",
+                    "Babel"
+                ],
+                "description": "Development of an example site.",
+                "images": [
+                    "desktop.png",
+                    "mobile.png"
+                ],
+                "urls": [
+                    "http://www.example.com"
+                ]
             }
