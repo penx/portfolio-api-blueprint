@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "aglio -i api-blueprint.apib -o ./api.html",
-    "drakov": "drakov -f ./api-blueprint.apib -p 8081"
+    "mock": "drakov -f ./api-blueprint.apib -p 8081 --watch"
   },
   "repository": {
     "type": "git",
