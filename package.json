@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-api-blueprint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "aglio -i api-blueprint.apib -o ./api.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penx/portfolio-api-blueprint.git"
+  },
+  "author": "Alasdair McLeay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penx/portfolio-api-blueprint/issues"
+  },
+  "homepage": "https://github.com/penx/portfolio-api-blueprint#readme",
+  "devDependencies": {
+    "aglio": "^2.3.0"
+  }
+}
