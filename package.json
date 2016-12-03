@@ -18,7 +18,7 @@
     "url": "https://github.com/penx/portfolio-api-blueprint/issues"
   },
   "homepage": "https://github.com/penx/portfolio-api-blueprint#readme",
-  "devDependencies": {
+  "dependencies": {
     "aglio": "^2.3.0",
     "drakov": "^1.0.1"
   }
