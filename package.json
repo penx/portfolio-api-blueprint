@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "aglio -i api-blueprint.apib -o ./api.html",
-    "mock": "drakov -f ./api-blueprint.apib -p 8081 --watch"
+    "mock": "drakov -f ./api-blueprint.apib -p 8081 --watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,8 @@
   "homepage": "https://github.com/penx/portfolio-api-blueprint#readme",
   "dependencies": {
     "aglio": "^2.3.0",
-    "drakov": "^1.0.1"
-  }
+    "drakov": "^1.0.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
