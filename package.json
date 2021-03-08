@@ -20,6 +20,6 @@
   "homepage": "https://github.com/penx/portfolio-api-blueprint#readme",
   "dependencies": {
     "aglio": "^2.3.0",
-    "drakov": "^1.0.1"
+    "drakov": "^2.0.1"
   }
 }
